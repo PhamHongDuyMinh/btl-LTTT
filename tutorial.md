@@ -1,7 +1,7 @@
 # HƯỚNG DẪN TOÀN TẬP: DỰ ÁN MINE (MUTUAL INFORMATION NEURAL ESTIMATION)
 
 **Môn học:** Lý thuyết thông tin - HUST
-**Sinh viên thực hiện:** Phạm Hồng Duy Minh
+**Sinh viên thực hiện:** NHÓM 2
 **Đề tài:** Ước lượng thông tin tương hỗ bằng mạng Neuron.
 
 ---
@@ -12,7 +12,6 @@
 3. [Cài đặt môi trường](#3-cài-đặt-môi-trường)
 4. [Hướng dẫn chạy chương trình](#4-hướng-dẫn-chạy-chương-trình)
 5. [Phân tích kết quả](#5-phân-tích-kết-quả)
-6. [Thử nghiệm nâng cao (Thay đổi tham số)](#6-thử-nghiệm-nâng-cao)
 
 ---
 
@@ -48,7 +47,7 @@ Trong thư mục dự án, các file có chức năng như sau:
 **Bước 2:** Mở Terminal (Phím tắt: `Ctrl + J` hoặc `Ctrl + ` ` `).
 **Bước 3:** Cài đặt các thư viện phụ thuộc bằng lệnh:
 
-```bash
+
 pip install -r requirements.txt
 Đợi màn hình báo "Successfully installed..." là thành công.
 
@@ -56,7 +55,7 @@ pip install -r requirements.txt
 
 ## 4. HƯỚNG DẪN CHẠY CHƯƠNG TRÌNH
 Sau khi cài đặt xong, bạn chạy lệnh sau để bắt đầu huấn luyện mô hình:
-```bash
+
 python main.py
 
 **Terminal sẽ hiện thông báo bắt đầu: Start Training MINE... True MI: ...
@@ -80,3 +79,4 @@ Sau khi chạy xong, hãy mở file ảnh result.png vừa được tạo ra tro
 	***Nếu đường màu Cam nằm xa đường màu Đỏ -> Mô hình chưa tốt (cần huấn luyện thêm).
 
 ---
+```bash
