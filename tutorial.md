@@ -75,13 +75,13 @@ Sau khi chạy xong, hãy mở file ảnh result.png vừa được tạo ra tro
 
 - **Cách đọc biểu đồ:
 
-- ***Đường nét đứt màu Đỏ (True MI): Đây là đáp án đúng (tính bằng toán học).
-- ***Đường màu Xanh/Cam (MINE Estimated): Đây là kết quả do mạng Neuron học được.
+    - ***Đường nét đứt màu Đỏ (True MI): Đây là đáp án đúng (tính bằng toán học).
+    - ***Đường màu Xanh/Cam (MINE Estimated): Đây là kết quả do mạng Neuron học được.
 
 - **Đánh giá:
 
-- ***Nếu đường màu Cam dao động xung quanh và bám sát đường màu Đỏ -> Mô hình thành công.
-- ***Nếu đường màu Cam nằm xa đường màu Đỏ -> Mô hình chưa tốt (cần huấn luyện thêm).
+    - ***Nếu đường màu Cam dao động xung quanh và bám sát đường màu Đỏ -> Mô hình thành công.
+    - ***Nếu đường màu Cam nằm xa đường màu Đỏ -> Mô hình chưa tốt (cần huấn luyện thêm).
 
 
 
