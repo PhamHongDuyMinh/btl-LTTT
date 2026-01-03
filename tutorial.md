@@ -63,25 +63,25 @@ Sau khi cài đặt xong, bạn chạy lệnh sau để bắt đầu huấn luy�
 
     python main.py
 
-- **Terminal sẽ hiện thông báo bắt đầu: Start Training MINE... True MI: ...
-- **Chương trình chạy 5000 bước huấn luyện (mất khoảng 10-20 giây).
-- **Các thông số ước lượng sẽ hiện liên tục: Step 500, Estimated MI: ...
-- **Khi chạy xong, dòng chữ Training done. Result saved to result.png sẽ hiện ra.
+- Terminal sẽ hiện thông báo bắt đầu: Start Training MINE... True MI: ...
+- Chương trình chạy 5000 bước huấn luyện (mất khoảng 10-20 giây).
+- Các thông số ước lượng sẽ hiện liên tục: Step 500, Estimated MI: ...
+- Khi chạy xong, dòng chữ Training done. Result saved to result.png sẽ hiện ra.
 
 ---
 
 ## 5. PHÂN TÍCH KẾT QUẢ
 Sau khi chạy xong, hãy mở file ảnh result.png vừa được tạo ra trong thư mục dự án.
 
-- **Cách đọc biểu đồ:
+- **Cách đọc biểu đồ:**
 
-    - ***Đường nét đứt màu Đỏ (True MI): Đây là đáp án đúng (tính bằng toán học).
-    - ***Đường màu Xanh/Cam (MINE Estimated): Đây là kết quả do mạng Neuron học được.
+    - Đường nét đứt màu Đỏ (True MI): Đây là đáp án đúng (tính bằng toán học).
+    - Đường màu Xanh/Cam (MINE Estimated): Đây là kết quả do mạng Neuron học được.
 
-- **Đánh giá:
+- **Đánh giá:**
 
-    - ***Nếu đường màu Cam dao động xung quanh và bám sát đường màu Đỏ -> Mô hình thành công.
-    - ***Nếu đường màu Cam nằm xa đường màu Đỏ -> Mô hình chưa tốt (cần huấn luyện thêm).
+    - Nếu đường màu Cam dao động xung quanh và bám sát đường màu Đỏ -> Mô hình thành công.
+    - Nếu đường màu Cam nằm xa đường màu Đỏ -> Mô hình chưa tốt (cần huấn luyện thêm).
 
 
 
