@@ -48,9 +48,9 @@ Trong thư mục dự án, các file có chức năng như sau:
 ## 3. CÀI ĐẶT MÔI TRƯỜNG
 Để chạy được code, bạn cần thực hiện đúng các bước sau:
 
-**Bước 1:** Mở thư mục dự án trong VS Code.
-**Bước 2:** Mở Terminal (Phím tắt: `Ctrl + J` hoặc `Ctrl + ` ` `).
-**Bước 3:** Cài đặt các thư viện phụ thuộc bằng lệnh:
+- **Bước 1:** Mở thư mục dự án trong VS Code.
+- **Bước 2:** Mở Terminal (Phím tắt: `Ctrl + J` hoặc `Ctrl + ` ` `).
+- **Bước 3:** Cài đặt các thư viện phụ thuộc bằng lệnh:
 
     pip install -r requirements.txt
 Đợi màn hình báo "Successfully installed..." là thành công.
@@ -74,13 +74,13 @@ Sau khi chạy xong, hãy mở file ảnh result.png vừa được tạo ra tro
 
 **Cách đọc biểu đồ:
 
-	***Đường nét đứt màu Đỏ (True MI): Đây là đáp án đúng (tính bằng toán học).
-	***Đường màu Xanh/Cam (MINE Estimated): Đây là kết quả do mạng Neuron học được.
+***Đường nét đứt màu Đỏ (True MI): Đây là đáp án đúng (tính bằng toán học).
+***Đường màu Xanh/Cam (MINE Estimated): Đây là kết quả do mạng Neuron học được.
 
 **Đánh giá:
 
-	***Nếu đường màu Cam dao động xung quanh và bám sát đường màu Đỏ -> Mô hình thành công.
-	***Nếu đường màu Cam nằm xa đường màu Đỏ -> Mô hình chưa tốt (cần huấn luyện thêm).
+***Nếu đường màu Cam dao động xung quanh và bám sát đường màu Đỏ -> Mô hình thành công.
+***Nếu đường màu Cam nằm xa đường màu Đỏ -> Mô hình chưa tốt (cần huấn luyện thêm).
 
----
-```bash
+
+
