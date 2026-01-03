@@ -1,8 +1,12 @@
 # HƯỚNG DẪN TOÀN TẬP: DỰ ÁN MINE (MUTUAL INFORMATION NEURAL ESTIMATION)
 
-**Môn học:** Lý thuyết thông tin - HUST
-**Sinh viên thực hiện:** NHÓM 2
-**Đề tài:** Ước lượng thông tin tương hỗ bằng mạng Neuron.
+-**Môn học:** Lý thuyết thông tin - HUST
+-**Nhóm thực hiện:** NHÓM 2
+    -Phạm Hồng Duy Minh_20234025
+    -Trần Phi Anh Nhật_20234029
+    -Hoàng Đức Trung_20234041
+    -Trần Độ_20233999
+-**Đề tài:** Ước lượng thông tin tương hỗ bằng mạng Neuron.
 
 ---
 
